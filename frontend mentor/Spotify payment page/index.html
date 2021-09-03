@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background: hsl(225, 100%, 98%);
+      background-image:url(pattern-background-desktop.svg);
+      background-repeat:no-repeat;
+    }
+    #div1{
+      
+      border-radius: 25px;
+      height: 600px;
+      width: 400px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top:8%;
+      margin-bottom: 60%;
+      position: static;
+      background-color: white;
+    }
+    #div2{
+      background-color: white;
+      border-top-left-radius: 23px;
+      border-top-right-radius: 23px;
+      width: 400px;
+      height: 200px;
+      background-image:url(illustration-hero.svg) ;
+    }
+    #div3{
+      background-color: hsl(225, 100%, 98%);
+      background-image: url(./images/icon-music.svg);
+      background-position: left center;
+      padding-right: 10px;
+      background-size: 50px;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+      width:300px;
+      height: 90px;
+      margin-left: 10%;
+    }
+    #button1{
+      background-color: hsl(245, 75%, 52%); 
+      border-radius: 25px;
+      border: white;
+      color: white;
+      margin-left: 10%;
+      height: 40px;
+      width: 300px;
+    }
+    #button2{
+      color: grey;
+      border: white;
+      border-radius: 25px;
+      background-color: white;
+      margin-left: 35%;
+    }
+  </style>
+</head>
+<body>
+  <div id="div1">
+    <div id="div2"></div>
+
+        <h2 style=" text-align: center; "><b>Order Summary</b></h2>
+        <p style="color: grey;text-align: center;">You can now listen to millions of songs,<br> audiobooks, and podcasts on any<br> 
+          device anywhere you like!</p>  
+         <br>
+         <div id="div3">
+          <b style="margin-left: 30%;">Annual Plan</b>
+          <a style="color: blue;margin-left: 80%; " href="">Change</a>
+          <p style="color: grey; margin-left: 30%;">$59.99/year</p>
+        </div>
+        <br>
+        <button id="button1">Proceed to payment</button>
+        <br>
+        <br>
+        <button id="button2">Cancel order</button>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
